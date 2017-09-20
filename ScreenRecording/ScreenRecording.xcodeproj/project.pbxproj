@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65F041A1F71F92D0096EA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A65F04191F71F92D0096EA33 /* main.m */; };
+		A65F041D1F71F92D0096EA33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65F041C1F71F92D0096EA33 /* AppDelegate.m */; };
+		A65F04201F71F92D0096EA33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65F041F1F71F92D0096EA33 /* ViewController.m */; };
+		A65F04231F71F92D0096EA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65F04211F71F92D0096EA33 /* Main.storyboard */; };
+		A65F04251F71F92D0096EA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65F04241F71F92D0096EA33 /* Assets.xcassets */; };
+		A65F04281F71F92D0096EA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65F04261F71F92D0096EA33 /* LaunchScreen.storyboard */; };
+		A65F04331F71F92D0096EA33 /* ScreenRecordingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65F04321F71F92D0096EA33 /* ScreenRecordingTests.m */; };
+		A65F043E1F71F92D0096EA33 /* ScreenRecordingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65F043D1F71F92D0096EA33 /* ScreenRecordingUITests.m */; };
+		A65F044D1F71FF450096EA33 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65F044C1F71FF450096EA33 /* PlayVideoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65F042F1F71F92D0096EA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65F040D1F71F92D0096EA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65F04141F71F92D0096EA33;
+			remoteInfo = ScreenRecording;
+		};
+		A65F043A1F71F92D0096EA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65F040D1F71F92D0096EA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65F04141F71F92D0096EA33;
+			remoteInfo = ScreenRecording;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A65F04151F71F92D0096EA33 /* ScreenRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65F04191F71F92D0096EA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A65F041B1F71F92D0096EA33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A65F041C1F71F92D0096EA33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A65F041E1F71F92D0096EA33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A65F041F1F71F92D0096EA33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A65F04221F71F92D0096EA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65F04241F71F92D0096EA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65F04271F71F92D0096EA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65F04291F71F92D0096EA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65F042E1F71F92D0096EA33 /* ScreenRecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecordingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65F04321F71F92D0096EA33 /* ScreenRecordingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecordingTests.m; sourceTree = "<group>"; };
+		A65F04341F71F92D0096EA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65F04391F71F92D0096EA33 /* ScreenRecordingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecordingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65F043D1F71F92D0096EA33 /* ScreenRecordingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecordingUITests.m; sourceTree = "<group>"; };
+		A65F043F1F71F92D0096EA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65F044B1F71FF450096EA33 /* PlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideoViewController.h; sourceTree = "<group>"; };
+		A65F044C1F71FF450096EA33 /* PlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65F04121F71F92D0096EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F042B1F71F92D0096EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F04361F71F92D0096EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65F040C1F71F92D0096EA33 = {
+			isa = PBXGroup;
+			children = (
+				A65F04171F71F92D0096EA33 /* ScreenRecording */,
+				A65F04311F71F92D0096EA33 /* ScreenRecordingTests */,
+				A65F043C1F71F92D0096EA33 /* ScreenRecordingUITests */,
+				A65F04161F71F92D0096EA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65F04161F71F92D0096EA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65F04151F71F92D0096EA33 /* ScreenRecording.app */,
+				A65F042E1F71F92D0096EA33 /* ScreenRecordingTests.xctest */,
+				A65F04391F71F92D0096EA33 /* ScreenRecordingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65F04171F71F92D0096EA33 /* ScreenRecording */ = {
+			isa = PBXGroup;
+			children = (
+				A65F041B1F71F92D0096EA33 /* AppDelegate.h */,
+				A65F041C1F71F92D0096EA33 /* AppDelegate.m */,
+				A65F041E1F71F92D0096EA33 /* ViewController.h */,
+				A65F041F1F71F92D0096EA33 /* ViewController.m */,
+				A65F044B1F71FF450096EA33 /* PlayVideoViewController.h */,
+				A65F044C1F71FF450096EA33 /* PlayVideoViewController.m */,
+				A65F04211F71F92D0096EA33 /* Main.storyboard */,
+				A65F04241F71F92D0096EA33 /* Assets.xcassets */,
+				A65F04261F71F92D0096EA33 /* LaunchScreen.storyboard */,
+				A65F04291F71F92D0096EA33 /* Info.plist */,
+				A65F04181F71F92D0096EA33 /* Supporting Files */,
+			);
+			path = ScreenRecording;
+			sourceTree = "<group>";
+		};
+		A65F04181F71F92D0096EA33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A65F04191F71F92D0096EA33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A65F04311F71F92D0096EA33 /* ScreenRecordingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A65F04321F71F92D0096EA33 /* ScreenRecordingTests.m */,
+				A65F04341F71F92D0096EA33 /* Info.plist */,
+			);
+			path = ScreenRecordingTests;
+			sourceTree = "<group>";
+		};
+		A65F043C1F71F92D0096EA33 /* ScreenRecordingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A65F043D1F71F92D0096EA33 /* ScreenRecordingUITests.m */,
+				A65F043F1F71F92D0096EA33 /* Info.plist */,
+			);
+			path = ScreenRecordingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65F04141F71F92D0096EA33 /* ScreenRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65F04421F71F92D0096EA33 /* Build configuration list for PBXNativeTarget "ScreenRecording" */;
+			buildPhases = (
+				A65F04111F71F92D0096EA33 /* Sources */,
+				A65F04121F71F92D0096EA33 /* Frameworks */,
+				A65F04131F71F92D0096EA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRecording;
+			productName = ScreenRecording;
+			productReference = A65F04151F71F92D0096EA33 /* ScreenRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65F042D1F71F92D0096EA33 /* ScreenRecordingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65F04451F71F92D0096EA33 /* Build configuration list for PBXNativeTarget "ScreenRecordingTests" */;
+			buildPhases = (
+				A65F042A1F71F92D0096EA33 /* Sources */,
+				A65F042B1F71F92D0096EA33 /* Frameworks */,
+				A65F042C1F71F92D0096EA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65F04301F71F92D0096EA33 /* PBXTargetDependency */,
+			);
+			name = ScreenRecordingTests;
+			productName = ScreenRecordingTests;
+			productReference = A65F042E1F71F92D0096EA33 /* ScreenRecordingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A65F04381F71F92D0096EA33 /* ScreenRecordingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65F04481F71F92D0096EA33 /* Build configuration list for PBXNativeTarget "ScreenRecordingUITests" */;
+			buildPhases = (
+				A65F04351F71F92D0096EA33 /* Sources */,
+				A65F04361F71F92D0096EA33 /* Frameworks */,
+				A65F04371F71F92D0096EA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65F043B1F71F92D0096EA33 /* PBXTargetDependency */,
+			);
+			name = ScreenRecordingUITests;
+			productName = ScreenRecordingUITests;
+			productReference = A65F04391F71F92D0096EA33 /* ScreenRecordingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65F040D1F71F92D0096EA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.GDBank.Company;
+				TargetAttributes = {
+					A65F04141F71F92D0096EA33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A65F042D1F71F92D0096EA33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A65F04141F71F92D0096EA33;
+					};
+					A65F04381F71F92D0096EA33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A65F04141F71F92D0096EA33;
+					};
+				};
+			};
+			buildConfigurationList = A65F04101F71F92D0096EA33 /* Build configuration list for PBXProject "ScreenRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65F040C1F71F92D0096EA33;
+			productRefGroup = A65F04161F71F92D0096EA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65F04141F71F92D0096EA33 /* ScreenRecording */,
+				A65F042D1F71F92D0096EA33 /* ScreenRecordingTests */,
+				A65F04381F71F92D0096EA33 /* ScreenRecordingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65F04131F71F92D0096EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65F04281F71F92D0096EA33 /* LaunchScreen.storyboard in Resources */,
+				A65F04251F71F92D0096EA33 /* Assets.xcassets in Resources */,
+				A65F04231F71F92D0096EA33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F042C1F71F92D0096EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F04371F71F92D0096EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65F04111F71F92D0096EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65F044D1F71FF450096EA33 /* PlayVideoViewController.m in Sources */,
+				A65F04201F71F92D0096EA33 /* ViewController.m in Sources */,
+				A65F041D1F71F92D0096EA33 /* AppDelegate.m in Sources */,
+				A65F041A1F71F92D0096EA33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F042A1F71F92D0096EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65F04331F71F92D0096EA33 /* ScreenRecordingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65F04351F71F92D0096EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65F043E1F71F92D0096EA33 /* ScreenRecordingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65F04301F71F92D0096EA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65F04141F71F92D0096EA33 /* ScreenRecording */;
+			targetProxy = A65F042F1F71F92D0096EA33 /* PBXContainerItemProxy */;
+		};
+		A65F043B1F71F92D0096EA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65F04141F71F92D0096EA33 /* ScreenRecording */;
+			targetProxy = A65F043A1F71F92D0096EA33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A65F04211F71F92D0096EA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65F04221F71F92D0096EA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65F04261F71F92D0096EA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65F04271F71F92D0096EA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65F04401F71F92D0096EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65F04411F71F92D0096EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65F04431F71F92D0096EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ScreenRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A65F04441F71F92D0096EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ScreenRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A65F04461F71F92D0096EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenRecordingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ScreenRecordingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenRecording.app/ScreenRecording";
+			};
+			name = Debug;
+		};
+		A65F04471F71F92D0096EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenRecordingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ScreenRecordingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenRecording.app/ScreenRecording";
+			};
+			name = Release;
+		};
+		A65F04491F71F92D0096EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenRecordingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ScreenRecordingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenRecording;
+			};
+			name = Debug;
+		};
+		A65F044A1F71F92D0096EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenRecordingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ScreenRecordingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenRecording;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65F04101F71F92D0096EA33 /* Build configuration list for PBXProject "ScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65F04401F71F92D0096EA33 /* Debug */,
+				A65F04411F71F92D0096EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65F04421F71F92D0096EA33 /* Build configuration list for PBXNativeTarget "ScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65F04431F71F92D0096EA33 /* Debug */,
+				A65F04441F71F92D0096EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A65F04451F71F92D0096EA33 /* Build configuration list for PBXNativeTarget "ScreenRecordingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65F04461F71F92D0096EA33 /* Debug */,
+				A65F04471F71F92D0096EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A65F04481F71F92D0096EA33 /* Build configuration list for PBXNativeTarget "ScreenRecordingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65F04491F71F92D0096EA33 /* Debug */,
+				A65F044A1F71F92D0096EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65F040D1F71F92D0096EA33 /* Project object */;
+}
